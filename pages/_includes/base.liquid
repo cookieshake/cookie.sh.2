@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title | default: "My Website" }}</title>
+    <link rel="stylesheet" href="/css/bundle.css">
+</head>
+<body>
+    <nav class="nav">
+        <!-- Header -->
+        <div class="nav-left">
+          <a class="brand" href="/">cookie.sh<span class="brand-accent">ake</span></a>
+          <a href="/memo">Memo</a>
+          </div>
+      </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        {{ content  }}
+    </main>
+</body>
+</html>

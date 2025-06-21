@@ -1,0 +1,13 @@
+@import "https://unpkg.com/chota@latest";
+
+:root {
+  --nav-height: 50px;
+}
+
+body {
+    overflow: hidden;
+}
+
+.brand-accent {
+  color: #bbbbbb;
+}
